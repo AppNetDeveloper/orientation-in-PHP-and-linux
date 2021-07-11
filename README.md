@@ -22,4 +22,14 @@ brew install poppler</br>
  Raspbian</br>
 apt-get install poppler-utils</br>
  Docker</br>
-docker run cmd.cat/pdfinfo pdfinfov
+docker run cmd.cat/pdfinfo pdfinfov</br></br></br>
+It is from which page you want me to start looking for the orientation</br>
+</br>
+<b>-f 1</b>  to start on page 1 of the pdf</br>
+<b>-f 2</b>  to start on page 2 of the pdf</br>
+<b>-f 3</b>  to start on page 3 of the pdf</br>
+</br>
+<b>-l 1</b>  to stop on page 1 of the pdf</br>
+<b>-l 2</b>  to stop on page 2 of the pdf</br>
+<b>-l 3</b>  to stop on page 3 of the pdf</br>
+
